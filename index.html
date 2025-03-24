@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шкаф с предметами</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="closet">
+            <div id="content">
+                <div id="item-1" class="item" data-text="Три красивые фотографии висели стояли на полке, каждая рассказывая свою уникальную и интересную историю">
+                </div>
+                <div id="item-2" class="item" data-text="На полке сиял золотой кубок, окружённый медалями, каждая из которых рассказывала историю побед, усилий и стремления к вершине.">
+                </div>
+                <div id="item-3" class="item"
+                    data-text="Чебурашка с большими ушами дружил с Генычем и любил приключения."></div>
+                <div id="item-4" class="item"
+                    data-text="На полке лежала длинная линейка, помогающая чертить ровные линии, измерять расстояния и создавать точные схемы для проектов."></div>
+                <div id="item-5" class="item"
+                    data-text="Крокодил, добрый, зеленый, друг, умный, шляпа, гармошка, верный, заботливый, веселый.">
+                </div>
+                <div id="item-6" class="item" data-text="Это яркий калейдоскоп, наполнющий взгляд узорами, меняющимися при каждом движении, создавая волшебные и неповторимые образы."></div>
+                <div id="item-7" class="item" data-text="На полке стояла стеклянная колба с нефтью, отражая свет и символизируя ценный природный ресурс для человечества."></div>
+                <div id="item-8" class="item" data-text="На полке лежала старая книга с потертыми страницами, храня в себе захватывающие истории, тайны прошлого и бесценные знания веков."></div>
+
+            </div>
+            <div id="door-left" class="door">
+                <div id="sticker">
+                    <span class="text">
+                        Нажми на <br />ручку, что бы <br />дверца открылась
+                    </span>
+                    <img src="./img/arrow.png" alt="стрелочка" id="arrow">
+                </div>
+                <div class="door-handle" id="door-handle-left"></div>
+                <audio class="touch-sound" src="./sound/handler.mp3"></audio>
+                <audio class="open-sound" src="./sound/door-open.mp3"></audio>
+            </div>
+            <div id="door-right" class="door">
+                <div class="door-handle" id="door-handle-right"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
