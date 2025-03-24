@@ -235,6 +235,8 @@ body {
     z-index: 9000;
 }
 
+/* анимации */
+
 #door-handle-left:hover {
     transform: rotate(37deg)
 }
@@ -274,6 +276,7 @@ body {
             animation-timing-function: cubic-bezier(0.990, 0.000, 0.890, 0.435);
             }
 }
+
 @keyframes fall { 
     100% {
             margin-top: 500px;
